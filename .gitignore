@@ -1,0 +1,60 @@
+
+# macOS dir files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.egg-info/
+# tox.ini
+
+# Documentation
+/docs/
+!/docs/Change-Logs.md
+!/docs/references/*
+# Outputs
+/outputs/
+/dist/
+
+# Editor temporaries
+*.swa
+*.swb
+*.swc
+*.swd
+*.swe
+*.swf
+*.swg
+*.swh
+*.swi
+*.swj
+*.swk
+*.swl
+*.swm
+*.swn
+*.swo
+*.swp
+*~
+.~lock.*
+
+## General
+
+# IDE
+/.vscode/*
+!/.vscode/extensions.json
+!/.vscode/settings_recommended.json
+/.idea/
+
+# Virtualenv
+venv/
+
+# Log files
+*.log
+sweep/
+
+# zip archives
+*.zip
+
+# direnv, posh-direnv
+.env
+.envrc
+.psenvrc
