@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"f414d0723bcfe14c","x":-3320,"y":-120,"width":3260,"height":2920,"type":"group","label":"微积分"},
+		{"id":"717a88abf1a91f5e","type":"group","x":-2459,"y":-100,"width":1819,"height":1120,"label":"极限的概念"},
+		{"id":"952bdc10586d3fa5","x":-2519,"y":-2380,"width":1170,"height":1740,"type":"group","label":"代数"},
+		{"id":"2a152da14be7b99a","type":"group","x":-2459,"y":1280,"width":1069,"height":1300,"label":"具体应用"},
+		{"id":"eaa3f83974007718","type":"group","x":-2499,"y":-1880,"width":1130,"height":1220,"label":"函数性态"},
+		{"id":"545e6d560486c7fa","type":"text","text":"## 可导性\n\n函数在某点存在切线\n\n描述变化趋势\n\n","x":-1729,"y":-1674,"width":340,"height":174},
+		{"id":"65d7bbe8dfe5692d","type":"text","text":"## 导数有界\n\n导数的绝对值 不超过某个常数","x":-1729,"y":-1240,"width":340,"height":140},
+		{"id":"b1243f6976257d4a","type":"text","text":"## 连续性\n\n连续性 描述的就是 函数在某点或者区间内无间断点\n\n无间断点 指的就是 函数在某点或者区间内 左右极限与定义值相等","x":-2479,"y":-1676,"width":380,"height":213},
+		{"id":"8267a2a7f91ef02d","type":"text","text":"## 有界性\n\n函数值在某个范围内(指定区间)\n\n$|f(x)| < M$\n\n### 函数有界性基本性质\n\n闭区间连续函数有界: $f(x)$在$[a, b]$上连续 → $f(x)$ 在$[a, b]$上有界;\n\n开区间连续 + 单侧极限存在: $f(x)$在$(a, b)$上连续，且$f(a^+)$和$f(b^-)$存在 $\\Rightarrow$ $f(x)$在$(a, b)$上有界; \n\n导数有界: $f^{'}(x)$ 在区间I（有限）上有界$\\Rightarrow$ $f(x)$在I上有界。","x":-2479,"y":-1240,"width":545,"height":380},
+		{"id":"1823fe94e8e9d923","type":"text","text":"# 函数性态\n\n单调性, 奇偶性, 周期性, 有界性, 连续性, 可导性, 可微性, 极值\n","x":-2479,"y":-1860,"width":545,"height":140},
+		{"id":"1b156a789b1cbece","type":"text","text":"### Implicit Function | 隐函数\n\n**定义** 隐函数是指由方程 $F(x, y)=0$ 定义的函数关系 $y=f(x)$（或 $x=g(y)$），其中 y 无法显式解出为 $y=f(x$) 的形式\n\n#### 隐函数存在定理\n\n局部非竖直切线\n\n","x":-2479,"y":-2360,"width":514,"height":280},
+		{"id":"0e063b3e5f19e959","type":"text","text":"## 开集与闭集的性质\n\n开集和闭集 从拓扑学来说, 有非常重要的性质区别\n\n闭集是紧致的(在有限维空间中), 而开集不是\n闭集的极限点都在集合内, 而开集的极限点可能不在集合内\n\n### 边界行为\n\n边界无定义 或者 发散\n\n发散的原因\n\n1 无界性: 函数在接近端点时 无线增大\n\n2 震荡: 无限震荡\n\n3 定义域限制: 无定义\n\n### Summary\n\n在边界处考虑, 边界的行为\n","x":-3240,"y":-1170,"width":500,"height":560},
+		{"id":"8e2a015f0c02dd3e","type":"text","text":"# 关键词表\n\n解释 描述\n\n理论 概念 定义 公理 命题 定理 引理 推论 准则\n\n收敛 发散\n\n有界 无界","x":-3920,"y":-918,"width":472,"height":308},
+		{"id":"b66c8c79b11bdc05","type":"text","text":"# 积分\n\n描述的是 函数在区间上的积累趋势","x":2080,"y":-320,"width":362,"height":112},
+		{"id":"99d80f80518cc300","type":"text","text":"## 常用结论\n\n若$\\lim_{n\\to\\infty} a_{n}=a$，则$\\lim_{n\\to\\infty}|a_{n}|=|a|$，但反之不成立；  \n$\\lim_{n\\to\\infty} a_{n}=0$的充分必要条件是$\\lim_{n\\to\\infty}|a_{n}|=0$。","x":-3300,"y":252,"width":577,"height":342},
+		{"id":"5d63d4053a2c495f","type":"text","text":"\n## 极限的性质\n\n### 基本性质\n\n1唯一性\n2局部有界性\n3保号性, 保序性\n\n### 极限的运算性质\n\n四则运算 和差积商\n\n复合函数极限\n\n### 极限与连续性的关系\n\n连续的定义 -> 间断点的分类\n\n### 极限值与无穷小之间的关系\n\n$\\operatorname* { l i m } f ( x ) = A { \\Leftrightarrow } f ( x ) = A + \\alpha ( x )$, 其中 $\\operatorname* { l i m } \\, \\alpha ( x ) = 0 .$","x":-2439,"y":374,"width":459,"height":586},
+		{"id":"b96393083e8cd7eb","type":"text","text":"## 极限存在性判定准则\n\n1 夹逼准则\\\n2 单调有界准则\\\n3 柯西收敛准则\n\n### 柯西极限存在准则\n\n核心思想: 序列收敛的充要条件是 \"项之间无限接近\"\n\n柯西准则仅要求项之间相互接近, 无需预先知道极限L","x":-1859,"y":591,"width":439,"height":349},
+		{"id":"72278a8ac86fc8eb","type":"text","text":"### 极限四则法则的逆运算\n\n极限四则运算的正向计算时, 要求已知$lim \\, f(x)$, $lim \\, g(x)$时\n\n逆运算 指 已知符合函数的极限, 能否反推单个函数的极限是否存在.\n\n和差积商都不一定\n","x":-3300,"y":743,"width":540,"height":197},
+		{"id":"6e883d2573ddc850","type":"text","text":"## 极限存在\n\n考虑极限的运算性质\n","x":-1859,"y":-60,"width":381,"height":122},
+		{"id":"94b98a49c065d26d","type":"text","text":"# 发散与收敛\n\n## 收敛\n\n极限存在 且 有限\n\n## Divergence | 发散\n\n极限不存在\n\n指一个数列, 函数 或者 级数不收敛与任何有限的极限值\n\n发散的类型: 趋向于无穷大 或 震荡发散\n","x":-1360,"y":62,"width":480,"height":398},
+		{"id":"cf81357e1a484730","type":"text","text":"## 极限不存在\n\n双侧极限不相等\n\n无限振荡\n\n趋向于无穷大(无界发散)\n无穷不属于实数\n\n路径依赖性(多元函数)\n不同路径趋近时 极限不同\n\n函数无定义 或 无趋近趋势\n\n\n\n","x":-1859,"y":150,"width":381,"height":323},
+		{"id":"59205ede0c0b37e1","type":"text","text":"# 极限\n\n**定义** 直观描述 函数在某一点处或无穷远时的**趋势**.\n\n==核心思想就是描述函数 或者 数列在某个变化过程中的 长期行为 或者 趋近趋势.==\n\n为 微分 和 积分 提供基础,\n连续性分析 和 收敛性判断的工具\n\n\n## 严格定义\n\n严格定义 $\\epsilon - \\delta$ 定义\n\n\n极限的定义支撑其性质，性质引导存在性判定，\n而无穷小和求极限方法则是具体应用的工具\n","x":-2439,"y":-80,"width":459,"height":392},
+		{"id":"7c572205fba2052a","type":"text","text":"## 无穷小 与 无穷大\n\n本质是描述趋势的程度\n\n等价无穷小替换\n\n$$\n\\begin{align*}\n(1) \\quad & x \\sim \\sin x \\sim \\tan x \\sim \\arcsin x \\sim \\arctan x \\sim \\ln(1+x) \\sim e^{x} - 1, \\\\\n         & (1+x)^{\\alpha} - 1 \\sim \\alpha x, \\quad \n           1 - \\cos^{\\alpha} x \\sim \\frac{\\alpha}{2}x^{2}, \\quad \n           a^{x} - 1 \\sim x \\ln a.\n\\end{align*}\n$$\n\n$$\n\\begin{align*}\n(2) \\quad & x - \\sin x \\sim \\frac{x^{3}}{6}, \\quad \n           \\arcsin x - x \\sim \\frac{x^{3}}{6}, \\quad \n           x - \\ln(1+x) \\sim \\frac{x^{2}}{2}, \\\\\n         & \\tan x - x \\sim \\frac{x^{3}}{3}, \\quad \n           x - \\arctan x \\sim \\frac{x^{3}}{3}.\n\\end{align*}\n$$","x":-2439,"y":1300,"width":518,"height":340},
+		{"id":"84bc06e0f0adb64b","type":"text","text":"## 求极限的方法\n\n直接代入法\n\n极限运算法则\n\n利用结论\n\n等价无穷小替换\n\n因式分解法\n\n有理化\n\n洛必达法则\n\n夹逼准则\n\n单调有界准则\n\n定积分定义\n\n泰勒展开\n\n级数收敛法\n\n\n","x":-1819,"y":1300,"width":379,"height":580},
+		{"id":"e7b6f518ac937284","type":"text","text":"## 重要极限公式\n\n### 基础极限\n$$\n\\begin{aligned}\n\\lim_{x \\to 0} \\frac{\\sin x}{x} &= 1 \\\\\n\\lim_{x \\to 0} (1 + x)^{1/x} &= \\mathrm{e} \\\\\n\\lim_{x \\to \\infty} \\left(1 + \\frac{1}{x}\\right)^x &= \\mathrm{e}\n\\end{aligned}\n$$\n\n### 其他重要极限\n\n$$\n\\lim_{x \\to 0} \\frac{a^x - 1}{x} = \\ln a \\quad (a > 0) $$\n\n$$\n\\lim_{n \\to \\infty} \\sqrt[n]{n} = 1\n$$\n\n$$\n\\lim_{n \\to \\infty} \\sqrt[n]{a} = 1\n$$\n\n### 分段极限\n\n多项式型函数的极限\n$$\n\\lim_{x \\to \\infty} \\frac{a_n x^n + \\cdots + a_0}{b_m x^m + \\cdots + b_0} = \n\\begin{cases} \n\\frac{a_n}{b_m}, & n = m, \\\\\n0,               & n < m, \\\\\n\\infty,          & n > m \n\\end{cases}\n$$\n\n\n当 $n \\to \\infty$ 时：\n$$\nx^n \\to \n\\begin{cases} \n0,       & |x| < 1, \\\\\n\\infty,  & |x| > 1, \\\\\n1,       & x = 1, \\\\\n\\text{不存在}, & x = -1 \n\\end{cases}\n$$\n\n\n$$\n\\lim e^{nx} = \n\\begin{cases} \n0,       & x < 0, \\\\\n+\\infty, & x > 0, \\\\\n1,       & x = 0 \n\\end{cases}\n$$\n\n","x":-2419,"y":1760,"width":479,"height":740},
+		{"id":"012b3f5bf14e9bba","type":"text","text":"\n# 导数\n\n描述的是 函数在某点的瞬时变化趋势\n","x":157,"y":-140,"width":400,"height":129}
+	],
+	"edges":[
+		{"id":"1f79d40b2a0bfd21","fromNode":"b1243f6976257d4a","fromSide":"right","toNode":"545e6d560486c7fa","toSide":"left"},
+		{"id":"7b73e370f4dd0a0d","fromNode":"59205ede0c0b37e1","fromSide":"bottom","toNode":"5d63d4053a2c495f","toSide":"top"},
+		{"id":"47269126a50163a7","fromNode":"5d63d4053a2c495f","fromSide":"right","toNode":"b96393083e8cd7eb","toSide":"left"},
+		{"id":"1614cbc041ed066d","fromNode":"717a88abf1a91f5e","fromSide":"bottom","toNode":"2a152da14be7b99a","toSide":"top"},
+		{"id":"3ff91e0d84ab56f3","fromNode":"717a88abf1a91f5e","fromSide":"left","toNode":"99d80f80518cc300","toSide":"right"},
+		{"id":"4d83ea8608b91dbf","fromNode":"cf81357e1a484730","fromSide":"right","toNode":"94b98a49c065d26d","toSide":"left"},
+		{"id":"0b298d7149be0bd2","fromNode":"59205ede0c0b37e1","fromSide":"right","toNode":"cf81357e1a484730","toSide":"left"},
+		{"id":"c97f2944ba36f875","fromNode":"5d63d4053a2c495f","fromSide":"left","toNode":"72278a8ac86fc8eb","toSide":"right"},
+		{"id":"0bb33b7aaa97994a","fromNode":"952bdc10586d3fa5","fromSide":"bottom","toNode":"f414d0723bcfe14c","toSide":"top"},
+		{"id":"6961602d1e2eb0c5","fromNode":"0e063b3e5f19e959","fromSide":"bottom","toNode":"f414d0723bcfe14c","toSide":"top"}
+	]
+}

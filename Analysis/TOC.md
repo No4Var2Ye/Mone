@@ -474,19 +474,19 @@ $$
 
 $$
 \begin{equation}
-y^{(n)}=f(x) \tag{1}
+y^{(n)}=f(x)
 \end{equation}
 $$
 
 $$
 \begin{equation}
-y^{''}=f(x, y^{'}) \tag{2}
+y^{''}=f(x, y^{'})
 \end{equation}
 $$
 
 $$
 \begin{equation}
-y^{''}=f(y, y^{'}) \tag{3}
+y^{''}=f(y, y^{'})
 \end{equation}
 $$
 
@@ -518,19 +518,19 @@ $$
 
 $$
 \begin{equation}
-y^{(n)}=f(x) \tag{1}
+y^{(n)}=f(x)
 \end{equation}
 $$
 
 $$
 \begin{equation}
-y^{''}=f(x, y^{'}) \tag{2}
+y^{''}=f(x, y^{'})
 \end{equation}
 $$
 
 $$
 \begin{equation}
-y^{''}=f(y, y^{'}) \tag{3}
+y^{''}=f(y, y^{'})
 \end{equation}
 $$
 
